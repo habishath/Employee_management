@@ -37,7 +37,7 @@ The **Employee Management System** is a Spring Boot application designed to mana
 2. **Update `application.properties`:**
 
    ```properties
-   spring.application.name=EmployeeManagementApp
+   spring.application.name=employee_management
    spring.datasource.url=jdbc:postgresql://localhost:5431/management_db
    spring.datasource.username=habishath
    spring.datasource.password=
