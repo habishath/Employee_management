@@ -88,6 +88,10 @@ The **Employee Management System** is a Spring Boot application designed to mana
   - **Get Employee by ID**: `GET /api/user/view/{id}`
   - **Get All Employees**: `GET /api/user/view`
 
+## Docs & Schema
+
+ER diagram, Sequence diagram and Schema for the project are stored in `resource/docs` folder.
+
 ## Contribution
 
 Feel free to contribute by submitting issues or pull requests. Please adhere to the coding standards and write clear commit messages.
