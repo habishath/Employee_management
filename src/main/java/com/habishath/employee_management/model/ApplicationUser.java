@@ -19,6 +19,7 @@ import java.util.Collection;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+//@Component
 public class ApplicationUser implements UserDetails {
 
     private Integer userId;
