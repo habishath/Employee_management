@@ -15,7 +15,7 @@ The **Employee Management System** is a Spring Boot application designed to mana
 
 ## 💻 Tech Stack
 
-- **Backend Framework:** Spring Boot
+- **Backend Framework:** Spring Boot using JDBC-Template
 - **Database:** PostgreSQL
 - **Security:** Spring Security with JWT
 - **Build Tool:** Maven
