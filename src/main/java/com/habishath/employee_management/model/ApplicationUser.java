@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.Collection;
 
-@Component
+
 @Data
 @Builder
 @NoArgsConstructor
