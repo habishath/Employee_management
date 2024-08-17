@@ -1,5 +1,9 @@
-package com.habishath.employee_management.authentication;
+package com.habishath.employee_management.controller;
 
+import com.habishath.employee_management.authentication.AuthRequest;
+import com.habishath.employee_management.authentication.AuthResponse;
+import com.habishath.employee_management.service.AuthService;
+import com.habishath.employee_management.authentication.RegisterRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

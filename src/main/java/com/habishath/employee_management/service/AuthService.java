@@ -1,5 +1,8 @@
-package com.habishath.employee_management.authentication;
+package com.habishath.employee_management.service;
 
+import com.habishath.employee_management.authentication.AuthRequest;
+import com.habishath.employee_management.authentication.AuthResponse;
+import com.habishath.employee_management.authentication.RegisterRequest;
 import com.habishath.employee_management.config.JwtService;
 import com.habishath.employee_management.model.ApplicationUser;
 import com.habishath.employee_management.repo.impl.AppUserRepoImpl;
