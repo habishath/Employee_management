@@ -42,3 +42,59 @@ The **Employee Management System** is a Spring Boot application designed to mana
    spring.datasource.username=habishath
    spring.datasource.password=
    spring.datasource.driver-class-name=org.postgresql.Driver
+
+2. **Dependencies:**
+   - Ensure that all required dependencies are listed in the `pom.xml` file.
+
+### Running the Application
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/management-app.git
+   cd management-app
+    ```
+
+3. Run the application:
+   ```bash
+   mvn spring-boot:run
+   ```
+
+4. Access the application at `http://localhost:8080`.
+
+## Endpoints
+
+### Authentication
+
+- **Register**: `POST /api/auth/signup`
+  - Request Body: `RegisterRequest`
+- **Login**: `POST /api/auth/login`
+  - Request Body: `AuthenticationRequest`
+
+### Employee Management
+
+- **ADMIN Endpoints**:
+  - **Get Employee by ID**: `GET /api/admin/view/{id}`
+  - **Get All Employees**: `GET /api/admin/view`
+  - **Save Employee**: `POST /api/admin/add`
+  - **Update Employee**: `PUT /api/admin/update/{id}`
+  - **Delete Employee**: `DELETE /api/admin/delete/{id}`
+
+- **MANAGER Endpoints**:
+  - **Get Employee by ID**: `GET /api/manager/view/{id}`
+  - **Get All Employees**: `GET /api/manager/view`
+  - **Save Employee**: `POST /api/manager/add`
+
+- **USER Endpoints**:
+  - **Get Employee by ID**: `GET /api/user/view/{id}`
+  - **Get All Employees**: `GET /api/user/view`
+
+## Contribution
+
+Feel free to contribute by submitting issues or pull requests. Please adhere to the coding standards and write clear commit messages.
+
+
+## Contact
+
+For questions or feedback, please contact [thavamhabi123@gmail.com]
+
+---
