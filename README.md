@@ -90,7 +90,7 @@ The **Employee Management System** is a Spring Boot application designed to mana
 
 ## Docs & Schema
 
-ER diagram, Sequence diagram and Schema for the project are stored in `resource/docs` folder.
+ER diagram, Sequence diagram and Schema for the project are stored in `resources/docs` folder.
 
 ## Contribution
 
